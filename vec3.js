@@ -36,12 +36,13 @@ Vec3.length = function(a) {
 
 Vec3.normalize = function(a) {
   var length = Vec3.length(a);
-  if(length > 0.00001) {
+  if(length > 0.000001) {
     a.x /= length;
     a.y /= length;
     a.z /= length;
+    return a;
   }
-  return a;
+  return 0;
 }
 
 
