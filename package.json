@@ -1,0 +1,15 @@
+{ "name" : "vec3"
+, "description" : "Simplified vector library."
+, "tags" : ["vector", "math", "simple", "utility"]
+, "version" : "0.1.0"
+, "author" : "Devin Hunt <devinhunt@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/mikeal/request.git"
+  }
+, "bugs" :
+  { "url" : "http://github.com/mikeal/request/issues" }
+, "engines" : ["node >= 0.3.6"]
+, "main" : "./vec3"
+, "scripts": { "test": "node test-vec3.js" }
+}
